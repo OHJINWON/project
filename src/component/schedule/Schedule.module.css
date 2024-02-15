@@ -1,0 +1,103 @@
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 83px 40px 0;
+}
+.content__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+.content__box .box01{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+.box01 > p{
+    font-family: "AppleSDGothicNeo";
+    /* padding: 10px 0 30px; */
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.box01 > .btn__box button {
+    width: 20px;
+    height:20px;
+    padding: 0;
+    border: 1px solid rgb(221, 221, 221);
+    background: #FFF;
+}
+.box01 > .btn__box  {
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+.btn__box > button {
+    cursor: pointer;
+}
+.box01 > .btn__box > button:nth-child(2) > img {
+    transform: scaleX(-1);
+}
+.box02 {
+    width: 100%;
+}
+.time__table {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+.work {
+    background: red;
+}
+
+/* .time__table > .time__tableBox .day {
+    flex-grow: 3;
+} */
+.time__table > ul, li {
+    border: 1px solid rgb(221, 221, 221);
+    flex-grow: 1;
+}
+.time__table > .time__tableBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.time__table th:nth-child(1) {
+    text-align: left !important;
+    padding: 0 10px !important;
+    border-left: none;
+    font-family: "AppleSDGothicNeo";
+}
+.time__table tr > td:nth-child(1) {
+     height: 50px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    border-left: none;
+}
+
+.time__table > table th {
+    padding: 5px;
+}
+.time__table > table th, td {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    text-align: center;
+    border: 1px solid rgb(221, 221, 221);
+}
+.impormation {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+.start {
+    padding: 10px 0;
+    background: #EBF3FE;
+}
+.lunch {
+    padding: 10px 0;
+    background: #F2EADF;
+}

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'AppleSDGothicNeo';
+    src: url('./AppleSDGothicNeoB.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+font-family: 'AppleSDGothicNeoEB';
+src: url('./AppleSDGothicNeoEB.ttf');
+font-weight: normal;
+font-style: normal;
+}
+/* bold처리 */
+@font-face {
+font-family: 'AppleSDGothicNeoH';
+src: url('./AppleSDGothicNeoH.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'AppleSDGothicNeoL';
+src: url('./AppleSDGothicNeoL.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'AppleSDGothicNeoM';
+src: url('./AppleSDGothicNeoM.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'AppleSDGothicNeoR';
+src: url('./AppleSDGothicNeoR.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'AppleSDGothicNeoSB';
+src: url('./AppleSDGothicNeoSB.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'AppleSDGothicNeoT';
+src: url('./AppleSDGothicNeoT.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'AppleSDGothicNeoUL';
+src: url('./AppleSDGothicNeoUL.ttf');
+font-weight: normal;
+font-style: normal;
+}
+  

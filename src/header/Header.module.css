@@ -1,0 +1,101 @@
+.header {
+    height: 82px;
+    border-bottom: 1px solid rgb(221, 221, 221);;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 90px;
+    background: #FFF;
+    z-index: 9999;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.contentLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contentLeft > .contentLeft__01 {
+    font-family: 'AppleSDGothicNeoH';
+}
+.contentLeft > .contentLeft__02 {
+    font-family: 'AppleSDGothicNeoL';
+}
+.contentRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    flex-basis: 85px;
+    height: 36px;
+}
+.contentRight > div {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+.contentRight > div:nth-child(1) > img {
+    width: 20px;
+    height: 20px;
+}
+
+.myImg {
+    cursor: pointer;
+    position: relative;
+}
+.contentRight > .myImg > img{
+    width: 32px;
+    height: 32px;
+}
+.toggle {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 11px;
+    background: #FFF;
+    border: none;
+    box-shadow: 0 1px 5px 5px rgb(221, 221, 221);
+}
+.toggle > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    font-family: 'AppleSDGothicNeoL';
+    flex-basis: 90px;
+}
+.toggle  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 90px;
+    padding: 10px 0;
+}
+.toggle > div:nth-child(1) > p {
+    font-family: 'AppleSDGothicNeo';
+    color: rgb(221, 221, 221);
+}
+.toggle > div > div {
+    display: flex;
+    flex-direction: row;
+}
+.toggle > div > div > p {
+    padding-left: 12px;
+}
+.toggle > .logout  p {
+    color: red;
+} 

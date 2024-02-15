@@ -1,0 +1,38 @@
+.sideBar {
+    width: 90px;
+    height: 100%;
+    background: #153F78;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first > img:nth-child(2) {
+    width: 32px;
+    height: 32px;
+}
+.sideBar > .contents {
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sideBar > .end {
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

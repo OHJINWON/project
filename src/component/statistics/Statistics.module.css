@@ -1,0 +1,18 @@
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 83px 40px 30px;
+}
+.aaa {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.line__Left {
+    flex-grow: 2;
+}
+.line__right {
+    flex-grow: 1;
+}
