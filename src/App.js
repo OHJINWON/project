@@ -11,9 +11,9 @@ function App() {
         <Sidebar/>
         <div className='wrapper'>
             <Header/>
-            <Notice/>
+            {/* <Notice/> */}
             <Schedule/>
-            <Statistics/>
+            {/* <Statistics/> */}
         </div>
     </div>
   );

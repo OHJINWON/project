@@ -29,7 +29,8 @@ export default function Statistics() {
     const year = today.getFullYear();
     const { loading, error, data } = useQuery(GET_STATISTICS);
     if (loading) return <p></p>;
-    if (error) return <p>{`err_00 : 예약 환자 통계 조회에 실패하였  습니다.`}</p>;
+    console.log("data",data)
+    if (error) return <p>{`err_00 : 예약 환자 통계 조회에 실패 하였습니다.`}</p>;
     const {manCount, womanCount} = data?.seeStatistics;
     const { byWeekNumberCount } = data.seeStatistics;
     
