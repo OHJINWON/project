@@ -13,9 +13,10 @@
 
 ## 프로젝트 구동
 **메인 페이지**
-![메인 페이지](/public/image.png)
+![메인페이지](/public/image.png)
 **GIF**
 ![동작하는gif](/public/GIF.gif)
+
 ## 프로젝트 구조
 ![폴더구조](image-1.png)
 
