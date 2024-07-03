@@ -18,7 +18,7 @@
 ![동작하는gif](/public/GIF.gif)
 
 ## 프로젝트 구조
-![폴더구조](image-1.png)
+![폴더구조](/public/image-1.png)
 
 ### 폴더 구조 설명
 - **src/component:**
